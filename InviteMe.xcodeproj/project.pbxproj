@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02009951D87D9B20098E046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A02009941D87D9B20098E046 /* main.m */; };
+		A02009981D87D9B20098E046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A02009971D87D9B20098E046 /* AppDelegate.m */; };
+		A020099B1D87D9B20098E046 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A020099A1D87D9B20098E046 /* FirstViewController.m */; };
+		A020099E1D87D9B20098E046 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A020099D1D87D9B20098E046 /* SecondViewController.m */; };
+		A02009A11D87D9B20098E046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A020099F1D87D9B20098E046 /* Main.storyboard */; };
+		A02009A31D87D9B20098E046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02009A21D87D9B20098E046 /* Assets.xcassets */; };
+		A02009A61D87D9B20098E046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02009A41D87D9B20098E046 /* LaunchScreen.storyboard */; };
+		A02009B11D87D9B20098E046 /* InviteMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02009B01D87D9B20098E046 /* InviteMeTests.m */; };
+		A02009BC1D87D9B20098E046 /* InviteMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02009BB1D87D9B20098E046 /* InviteMeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02009AD1D87D9B20098E046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02009881D87D9B20098E046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A020098F1D87D9B20098E046;
+			remoteInfo = InviteMe;
+		};
+		A02009B81D87D9B20098E046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02009881D87D9B20098E046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A020098F1D87D9B20098E046;
+			remoteInfo = InviteMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A02009901D87D9B20098E046 /* InviteMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InviteMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02009941D87D9B20098E046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A02009961D87D9B20098E046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A02009971D87D9B20098E046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A02009991D87D9B20098E046 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A020099A1D87D9B20098E046 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A020099C1D87D9B20098E046 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A020099D1D87D9B20098E046 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A02009A01D87D9B20098E046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A02009A21D87D9B20098E046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A02009A51D87D9B20098E046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A02009A71D87D9B20098E046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02009AC1D87D9B20098E046 /* InviteMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InviteMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02009B01D87D9B20098E046 /* InviteMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteMeTests.m; sourceTree = "<group>"; };
+		A02009B21D87D9B20098E046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02009B71D87D9B20098E046 /* InviteMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InviteMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02009BB1D87D9B20098E046 /* InviteMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteMeUITests.m; sourceTree = "<group>"; };
+		A02009BD1D87D9B20098E046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A020098D1D87D9B20098E046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02009A91D87D9B20098E046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02009B41D87D9B20098E046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02009871D87D9B20098E046 = {
+			isa = PBXGroup;
+			children = (
+				A02009921D87D9B20098E046 /* InviteMe */,
+				A02009AF1D87D9B20098E046 /* InviteMeTests */,
+				A02009BA1D87D9B20098E046 /* InviteMeUITests */,
+				A02009911D87D9B20098E046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02009911D87D9B20098E046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02009901D87D9B20098E046 /* InviteMe.app */,
+				A02009AC1D87D9B20098E046 /* InviteMeTests.xctest */,
+				A02009B71D87D9B20098E046 /* InviteMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02009921D87D9B20098E046 /* InviteMe */ = {
+			isa = PBXGroup;
+			children = (
+				A02009961D87D9B20098E046 /* AppDelegate.h */,
+				A02009971D87D9B20098E046 /* AppDelegate.m */,
+				A02009991D87D9B20098E046 /* FirstViewController.h */,
+				A020099A1D87D9B20098E046 /* FirstViewController.m */,
+				A020099C1D87D9B20098E046 /* SecondViewController.h */,
+				A020099D1D87D9B20098E046 /* SecondViewController.m */,
+				A020099F1D87D9B20098E046 /* Main.storyboard */,
+				A02009A21D87D9B20098E046 /* Assets.xcassets */,
+				A02009A41D87D9B20098E046 /* LaunchScreen.storyboard */,
+				A02009A71D87D9B20098E046 /* Info.plist */,
+				A02009931D87D9B20098E046 /* Supporting Files */,
+			);
+			path = InviteMe;
+			sourceTree = "<group>";
+		};
+		A02009931D87D9B20098E046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02009941D87D9B20098E046 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A02009AF1D87D9B20098E046 /* InviteMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02009B01D87D9B20098E046 /* InviteMeTests.m */,
+				A02009B21D87D9B20098E046 /* Info.plist */,
+			);
+			path = InviteMeTests;
+			sourceTree = "<group>";
+		};
+		A02009BA1D87D9B20098E046 /* InviteMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A02009BB1D87D9B20098E046 /* InviteMeUITests.m */,
+				A02009BD1D87D9B20098E046 /* Info.plist */,
+			);
+			path = InviteMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A020098F1D87D9B20098E046 /* InviteMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02009C01D87D9B20098E046 /* Build configuration list for PBXNativeTarget "InviteMe" */;
+			buildPhases = (
+				A020098C1D87D9B20098E046 /* Sources */,
+				A020098D1D87D9B20098E046 /* Frameworks */,
+				A020098E1D87D9B20098E046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InviteMe;
+			productName = InviteMe;
+			productReference = A02009901D87D9B20098E046 /* InviteMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02009AB1D87D9B20098E046 /* InviteMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02009C31D87D9B20098E046 /* Build configuration list for PBXNativeTarget "InviteMeTests" */;
+			buildPhases = (
+				A02009A81D87D9B20098E046 /* Sources */,
+				A02009A91D87D9B20098E046 /* Frameworks */,
+				A02009AA1D87D9B20098E046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02009AE1D87D9B20098E046 /* PBXTargetDependency */,
+			);
+			name = InviteMeTests;
+			productName = InviteMeTests;
+			productReference = A02009AC1D87D9B20098E046 /* InviteMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A02009B61D87D9B20098E046 /* InviteMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02009C61D87D9B20098E046 /* Build configuration list for PBXNativeTarget "InviteMeUITests" */;
+			buildPhases = (
+				A02009B31D87D9B20098E046 /* Sources */,
+				A02009B41D87D9B20098E046 /* Frameworks */,
+				A02009B51D87D9B20098E046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02009B91D87D9B20098E046 /* PBXTargetDependency */,
+			);
+			name = InviteMeUITests;
+			productName = InviteMeUITests;
+			productReference = A02009B71D87D9B20098E046 /* InviteMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02009881D87D9B20098E046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luis Vasquez";
+				TargetAttributes = {
+					A020098F1D87D9B20098E046 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A33C8SW23N;
+					};
+					A02009AB1D87D9B20098E046 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A020098F1D87D9B20098E046;
+					};
+					A02009B61D87D9B20098E046 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A020098F1D87D9B20098E046;
+					};
+				};
+			};
+			buildConfigurationList = A020098B1D87D9B20098E046 /* Build configuration list for PBXProject "InviteMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02009871D87D9B20098E046;
+			productRefGroup = A02009911D87D9B20098E046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A020098F1D87D9B20098E046 /* InviteMe */,
+				A02009AB1D87D9B20098E046 /* InviteMeTests */,
+				A02009B61D87D9B20098E046 /* InviteMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A020098E1D87D9B20098E046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02009A61D87D9B20098E046 /* LaunchScreen.storyboard in Resources */,
+				A02009A31D87D9B20098E046 /* Assets.xcassets in Resources */,
+				A02009A11D87D9B20098E046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02009AA1D87D9B20098E046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02009B51D87D9B20098E046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A020098C1D87D9B20098E046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A020099E1D87D9B20098E046 /* SecondViewController.m in Sources */,
+				A02009981D87D9B20098E046 /* AppDelegate.m in Sources */,
+				A020099B1D87D9B20098E046 /* FirstViewController.m in Sources */,
+				A02009951D87D9B20098E046 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02009A81D87D9B20098E046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02009B11D87D9B20098E046 /* InviteMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02009B31D87D9B20098E046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02009BC1D87D9B20098E046 /* InviteMeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02009AE1D87D9B20098E046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A020098F1D87D9B20098E046 /* InviteMe */;
+			targetProxy = A02009AD1D87D9B20098E046 /* PBXContainerItemProxy */;
+		};
+		A02009B91D87D9B20098E046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A020098F1D87D9B20098E046 /* InviteMe */;
+			targetProxy = A02009B81D87D9B20098E046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A020099F1D87D9B20098E046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02009A01D87D9B20098E046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A02009A41D87D9B20098E046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02009A51D87D9B20098E046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02009BE1D87D9B20098E046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A02009BF1D87D9B20098E046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02009C11D87D9B20098E046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = InviteMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.InviteMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A02009C21D87D9B20098E046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = InviteMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.InviteMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A02009C41D87D9B20098E046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InviteMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.InviteMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InviteMe.app/InviteMe";
+			};
+			name = Debug;
+		};
+		A02009C51D87D9B20098E046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InviteMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.InviteMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InviteMe.app/InviteMe";
+			};
+			name = Release;
+		};
+		A02009C71D87D9B20098E046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InviteMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.InviteMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InviteMe;
+			};
+			name = Debug;
+		};
+		A02009C81D87D9B20098E046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InviteMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.InviteMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InviteMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A020098B1D87D9B20098E046 /* Build configuration list for PBXProject "InviteMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02009BE1D87D9B20098E046 /* Debug */,
+				A02009BF1D87D9B20098E046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02009C01D87D9B20098E046 /* Build configuration list for PBXNativeTarget "InviteMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02009C11D87D9B20098E046 /* Debug */,
+				A02009C21D87D9B20098E046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A02009C31D87D9B20098E046 /* Build configuration list for PBXNativeTarget "InviteMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02009C41D87D9B20098E046 /* Debug */,
+				A02009C51D87D9B20098E046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A02009C61D87D9B20098E046 /* Build configuration list for PBXNativeTarget "InviteMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02009C71D87D9B20098E046 /* Debug */,
+				A02009C81D87D9B20098E046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02009881D87D9B20098E046 /* Project object */;
+}
